@@ -515,16 +515,18 @@ a.back-to-top:hover, a.back-to-top:focus{
     border-radius: 5px;
 	box-shadow: 0 1px 30px rgba(255, 255, 255, 0.2);
     padding: 50px 25px;
+	height: 350px;
     text-align: center;
     transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
+	margin: 2px;
 }
 .services-item .icon{
     background: url(../img/service/service-icon-bg.svg) no-repeat;
     width: 90px;
-    height: 90px;
+    height: 60%;
     display: inline-block;
     line-height: 80px;
     text-align: center;
@@ -532,6 +534,7 @@ a.back-to-top:hover, a.back-to-top:focus{
 .services-item .services-content h3{
 	margin-top: 10px;
 	margin-bottom: 10px;
+
 }
 .services-item .services-content h3 a{
 	font-size: 18px;
@@ -541,6 +544,8 @@ a.back-to-top:hover, a.back-to-top:focus{
 	color: #fe4f6c;
 }
 .services-item .services-content p{
+	word-wrap: normal;
+	height: 30%;
 	line-height: 22px;
 }
 /* ==========================================================================
@@ -936,3 +941,7 @@ FunFacts CSS
 /* ==========================================================================
 11. End Footer Area
 ========================================================================== */
+
+ul li{
+	color: #fff;
+}
